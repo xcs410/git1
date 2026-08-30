@@ -1,0 +1,26 @@
+# 依赖
+node_modules/
+
+# 环境与密钥（切勿提交）
+.env
+.env.*
+*.pem
+*.key
+
+# 构建产物
+dist/
+build/
+out/
+
+# Python
+__pycache__/
+.venv/
+venv/
+*.py[cod]
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
